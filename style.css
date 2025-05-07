@@ -26,37 +26,60 @@ p {
 
 h1 {
 	font-weight: 700;
-	font-size: 1.8rem;
+	font-size: 1.4rem;
+	line-break: auto;
 	color: var(--slate-dark);
 }
 
 p {
 	font-weight: 400;
 	font-size: 1rem;
+	line-height: 1.6rem;
+	line-break: auto;
 	color: var(--slate-medium);
 }
 
 /* ------------------------------------------------ */
 
 body {
-	background: rgba(81, 43, 85, 0.4);
+	background: var(--slate-light);
 }
 
 /* CARD CONTAINER */
 .card-container {
 	background-color: var(--white);
+	width: 330px;
+	height: auto;
+	margin: 200px auto;
+	border-radius: 20px;
 }
 
 /* ------------------------------------------------ */
 
 /* CARD CONTENT */
+img {
+	width: 100%;
+	padding: 20px;
+	border-radius: 30px;
+}
 
+.card-container h1 {
+	padding: 5px;
+	margin: 0px 30px 0px 30px;
+	text-align: center;
+}
+
+.card-container p {
+	padding: 10px 10px 45px 10px;
+	margin: 0px 25px 0px 25px;
+	text-align: center;
+}
 /* ------------------------------------------------ */
 
 /* FOOTER */
 footer {
 	margin: 20px 0px 20px 0px;
-	background-color: var(--cerise-light);
+	background-color: var(--white);
 	padding: 8px;
 }
 
