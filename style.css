@@ -99,3 +99,20 @@ footer {
 }
 
 /* ------------------------------------------------ */
+
+/* MEDIA QUERIES */
+@media (max-width: 320px) {
+	.card-container {
+		width: fit-content;
+		margin: auto;
+	}
+	.attribution {
+		font-size: 9px;
+	}
+}
+
+@media (min-width: 375px) {
+	.card-container {
+		width: 330px;
+	}
+}
