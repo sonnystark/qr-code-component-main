@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
+
+/* CSS RESET AND GLOBAL VARIABLES */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+:root {
+	--white: rgb(255, 255, 255);
+	--slate-light: rgb(214, 226, 240);
+	--slate-medium: rgb(104, 119, 141);
+	--slate-dark: rgb(31, 50, 81);
+	--cerise-light: rgb(238, 217, 217);
+}
+
+/* ------------------------------------------------ */
+
+/* TYPOGRAPHY */
+
+h1,
+p {
+	font-family: Outfit, Arial, Helvetica, sans-serif;
+}
+
+h1 {
+	font-weight: 700;
+	font-size: 1.8rem;
+	color: var(--slate-dark);
+}
+
+p {
+	font-weight: 400;
+	font-size: 1rem;
+	color: var(--slate-medium);
+}
+
+/* ------------------------------------------------ */
+
+body {
+	background: rgba(81, 43, 85, 0.4);
+}
+
+/* CARD CONTAINER */
+.card-container {
+	background-color: var(--white);
+}
+
+/* ------------------------------------------------ */
+
+/* CARD CONTENT */
+
+/* ------------------------------------------------ */
+
+/* FOOTER */
+footer {
+	margin: 20px 0px 20px 0px;
+	background-color: var(--cerise-light);
+	padding: 8px;
+}
+
+.attribution {
+	font-family: monospace;
+	font-size: 11px;
+	text-align: center;
+}
+.attribution a {
+	font-weight: 600;
+	color: rgb(49, 57, 88);
+	text-decoration: none;
+}
+
+.attribution a:hover {
+	color: rgb(0, 0, 0);
+}
+
+/* ------------------------------------------------ */
